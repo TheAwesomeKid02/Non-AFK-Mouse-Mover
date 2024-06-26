@@ -11,5 +11,8 @@ while True:
 
     #press the shift key to prevent a screensaver. You may need to change the key depending on which program is open while your are afk
     pag.press('shift')
-    
+
+    #left clicks
+    pag.click()
+
     time.sleep(2) #Do not set this value too low
