@@ -8,4 +8,8 @@ while True:
     x = random.randint(600, 1000)
     y = random.randint(200, 600)
     pag.moveTo(x, y, 0.5)
+
+    #press the shift key to prevent a screensaver. You may need to change the key depending on which program is open while your are afk
+    pag.press('shift')
+    
     time.sleep(2) #Do not set this value too low
